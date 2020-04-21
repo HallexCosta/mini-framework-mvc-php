@@ -1,0 +1,26 @@
+{
+	"name": "hallex/mini-framework-mvc",
+	"description": "Create mini framework mvc",
+	"minimum-stability": "stable",
+	"license": "MIT",
+	"type": "library",
+	"author": [
+		{
+			"name": "HallexCosta",
+			"email": "hallex.costa@hotmail.com",
+			"role": "Developer"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"App\\": "app/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Tests\\": "tests/"
+		}
+	},
+	"require": {},
+	"require-dev": {}
+}
