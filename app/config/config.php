@@ -1,6 +1,6 @@
 <?php
 
-define('BASE', '/mini-framework-php/');
+define('BASE', '/');
 
-define('UNSET_URI_COUNT', 1);
-define('DEBUG_UNSET_URI', true);
+define('UNSET_URI_COUNT', 0);
+define('DEBUG_URI', false);
